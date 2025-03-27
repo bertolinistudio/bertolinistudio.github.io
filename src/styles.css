@@ -1,0 +1,231 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f8f8;
+    --text-primary: #012929;
+    --text-secondary: #023535;
+    --card-bg: #fff;
+    --card-shadow: rgba(0,0,0,0.1);
+    --placeholder-bg: #012323;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #011818;
+        --bg-secondary: #012929;
+        --text-primary: #ffffff;
+        --text-secondary: #8fb8ab;
+        --card-bg: #011010;
+        --card-shadow: rgba(0,0,0,0.3);
+        --placeholder-bg: #012323;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bodoni Moda', serif;
+    line-height: 1.6;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+}
+
+.brand-name {
+   font-weight: 800;
+}
+
+.landing-section {
+    height: 100vh;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.landing-section .content h1 {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.landing-section nav ul li {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.landing-section nav ul li:nth-child(1) { animation-delay: 0.5s; }
+.landing-section nav ul li:nth-child(2) { animation-delay: 0.7s; }
+.landing-section nav ul li:nth-child(3) { animation-delay: 0.9s; }
+
+@font-face {
+    font-family: 'Lady Bloom';
+    src: url('font/Lady Bloom.woff2') format('woff2'),
+         url('font/Lady Bloom.woff') format('woff'),
+         url('font/Lady Bloom.ttf') format('truetype'),
+         url('font/Lady Bloom.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.content h1 {
+    font-family: 'Lady Bloom', 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+    color: var(--text-primary);
+}
+
+.light {
+    font-weight: 100;
+    color: var(--text-primary);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+    letter-spacing: 0.03em;
+    text-transform: lowercase;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    color: var(--text-secondary);
+}
+
+.projects-section {
+    padding: 4rem 2rem;
+    background-color: var(--bg-primary);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-item {
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background-color: var(--card-bg);
+    box-shadow: 0 2px 4px var(--card-shadow);
+}
+
+.project-placeholder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--placeholder-bg);
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contacts-section {
+    padding: 0 2rem;
+    background-color: var(--bg-primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+}
+
+.contacts-section p {
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.contacts-section .contact-links {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.contacts-section .contact-links a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+}
+
+.contacts-section .contact-links a:hover {
+    color: var(--text-secondary);
+}
+
+.about-section {
+    padding: 0 2rem;
+    background-color: var(--bg-primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+}
+
+.about-section p {
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+h2, h3 {
+    text-transform: lowercase;
+}
+
+h2, h3 {
+    opacity: 0.5;
+}
