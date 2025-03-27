@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Modern Villa",
+      "subtitle": "Residential Design",
+      "description": "A contemporary villa that harmoniously blends indoor and outdoor living spaces",
+      "img_folder_name": "modern_villa"
+    },
+    {
+      "title": "Urban Office",
+      "subtitle": "Commercial Space",
+      "description": "A sustainable office building designed for the modern workforce",
+      "img_folder_name": "urban_office"
+    },
+    {
+      "title": "Cultural Center",
+      "subtitle": "Public Space",
+      "description": "A vibrant community hub celebrating arts and culture",
+      "img_folder_name": "cultural_center"
+    },
+    {
+      "title": "Eco Resort",
+      "subtitle": "Hospitality",
+      "description": "An environmentally conscious resort integrated with nature",
+      "img_folder_name": "eco_resort"
+    }
+  ]
+}
