@@ -5,10 +5,7 @@
          url('/font/Lady Bloom.ttf') format('truetype');
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
+
 :root {
     --bg-primary: #ffffff;
     --bg-primary-rgb: 255, 255, 255;
@@ -68,6 +65,11 @@ body {
     margin: auto;
     font-family:'Lady Bloom' ;
     text-align: center;
+}
+@media (max-width: 768px) {
+    .landing-section.content h1 {
+        font-size: 1rem;
+    }
 }
 .landing-section .content h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
