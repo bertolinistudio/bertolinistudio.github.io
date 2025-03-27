@@ -5,6 +5,10 @@
          url('/font/Lady Bloom.ttf') format('truetype');
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 :root {
     --bg-primary: #ffffff;
     --bg-primary-rgb: 255, 255, 255;
