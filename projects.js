@@ -25,10 +25,12 @@ async function loadProjects() {
             
             projectItem.innerHTML = content;
             projectGrid.appendChild(projectItem);
+        });
     } catch (error) {
         console.error('Error loading projects:', error);
     }
 }
+
 
 // Load projects when the page loads
 document.addEventListener('DOMContentLoaded', loadProjects);
