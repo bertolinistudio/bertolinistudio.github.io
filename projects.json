@@ -1,28 +1,23 @@
 {
   "projects": [
     {
-      "title": "Modern Villa",
-      "subtitle": "Residential Design",
-      "description": "A contemporary villa that harmoniously blends indoor and outdoor living spaces",
-      "img_folder_name": "modern_villa"
-    },
-    {
-      "title": "Urban Office",
-      "subtitle": "Commercial Space",
-      "description": "A sustainable office building designed for the modern workforce",
-      "img_folder_name": "urban_office"
-    },
-    {
-      "title": "Cultural Center",
-      "subtitle": "Public Space",
-      "description": "A vibrant community hub celebrating arts and culture",
-      "img_folder_name": "cultural_center"
-    },
-    {
-      "title": "Eco Resort",
-      "subtitle": "Hospitality",
-      "description": "An environmentally conscious resort integrated with nature",
-      "img_folder_name": "eco_resort"
+      "title": "Artistic parfumery",
+      "subtitle": "2023 - Italian Alps' town",
+      "description": "This project transforms the space into an elegant theatrical setting, where fragrances and the owner take center stage. Soft, flowing curtains create scenic backdrops, shaping the environment with depth and movement.\n\nA carefully designed interplay of lighting, materials, and textures enhances the experience, turning the perfumery into a place of discovery where every detail elevates the art of scent.",
+      "img_folder_name": "profumeria",
+      "photos": [
+        "MBertolini_Profumeria-6.jpg",
+        "MBertolini_Profumeria-1.jpg",
+        "MBertolini_Profumeria-2.jpg",
+        "MBertolini_Profumeria-3.jpg",
+        "MBertolini_Profumeria-5.jpg",
+        "MBertolini_Profumeria-12.jpg",
+        "MBertolini_Profumeria-13.jpg",
+        "MBertolini_Profumeria-14.jpg",
+        "MBertolini_Profumeria-17.jpg",
+        "MBertolini_Profumeria-19.jpg",
+        "MBertolini_Profumeria-20.jpg"
+      ]
     }
   ]
 }

@@ -12,9 +12,16 @@ async function loadProjects() {
             const projectItem = document.createElement('div');
             projectItem.className = 'project-item';
             
+            // Create gallery HTML
+            const galleryHTML = project.photos.map(photo => 
+                `<div class="gallery-image">
+                    <img src="images/${project.img_folder_name}/${photo}" alt="${project.title}">
+                </div>`
+            ).join('');
+            
             const content = `
-                <div class="project-image">
-                    <img src="images/${project.img_folder_name}/main.jpg" alt="${project.title}">
+                <div class="project-gallery">
+                    ${galleryHTML}
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>
