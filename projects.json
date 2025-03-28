@@ -2,24 +2,22 @@
   "projects": [
     {
       "title": "Artistic parfumery",
-      "subtitle": "2023 - Italian Alps' town",
+      "subtitle": "2023 - Morbegno, Italian Alps",
       "description": "This project transforms the space into an elegant theatrical setting, where fragrances and the owner take center stage. Soft, flowing curtains create scenic backdrops, shaping the environment with depth and movement.\n\nA carefully designed interplay of lighting, materials, and textures enhances the experience, turning the perfumery into a place of discovery where every detail elevates the art of scent.",
       "img_folder_name": "profumeria",
       "photos": [
         "MBertolini_Profumeria-1.jpg",
         "MBertolini_Profumeria-2.jpg",
+        "MBertolini_Profumeria-3.jpg",
         "MBertolini_Profumeria-5.jpg",
         "MBertolini_Profumeria-6.jpg",
-        "MBertolini_Profumeria-8.jpg",
-        "MBertolini_Profumeria-9.jpg",
-        "MBertolini_Profumeria-10.jpg",
-        "MBertolini_Profumeria-11.jpg",
         "MBertolini_Profumeria-12.jpg",
         "MBertolini_Profumeria-13.jpg",
         "MBertolini_Profumeria-14.jpg",
-        "MBertolini_Profumeria-15.jpg",
-        "MBertolini_Profumeria-16.jpg",
-        "MBertolini_Profumeria-19.jpg"
+        "MBertolini_Profumeria-17.jpg",
+        "MBertolini_Profumeria-19.jpg",
+        "MBertolini_Profumeria-20.jpg",
+        
       ]
     },
     {
@@ -42,6 +40,29 @@
         "MBertolini_Manetti-15.jpg",
         "MBertolini_Manetti-16.jpg",
         "MBertolini_Manetti-19.jpg"
+      ]
+    }
+    {
+      "title": "Law firm office",
+      "subtitle": "2019 - Colico, Como Lake",
+      "description": "Upon entering, clients are greeted by the impressive “Walnut Waterfall” counter, the central element that balances the space between the meeting room and private offices.  
+/N Large glass partitions create seamless visual connections, while a striking blue bookcase unites the three rooms, enriched with custom-designed iron inserts. A project that combines elegance and functionality through refined materials and bespoke details.",
+      "img_folder_name": "studiolegale",
+      "photos": [
+        "MBertolini_StudioLegaleBernardi-11.jpg",
+        "MBertolini_StudioLegaleBernardi-4.jpg",
+        "MBertolini_StudioLegaleBernardi-5.jpg",
+        "MBertolini_StudioLegaleBernardi-8.jpg",
+        "MBertolini_StudioLegaleBernardi-9.jpg",
+        "MBertolini_StudioLegaleBernardi-13.jpg",
+        "MBertolini_StudioLegaleBernardi-18.jpg",
+        "MBertolini_StudioLegaleBernardi-20.jpg",
+        "MBertolini_StudioLegaleBernardi-21.jpg",
+        "MBertolini_StudioLegaleBernardi-23.jpg",
+        "MBertolini_StudioLegaleBernardi-24.jpg",
+        "MBertolini_StudioLegaleBernardi-25.jpg",
+        "MBertolini_StudioLegaleBernardi-27.jpg",
+        "MBertolini_StudioLegaleBernardi-31.jpg"
       ]
     }
   ]
