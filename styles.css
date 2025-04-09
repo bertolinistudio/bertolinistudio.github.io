@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 .projects-section .content {
-    padding-top: 4rem;
+    padding-top: 5rem;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -329,7 +329,7 @@ html {
 }
 
 .contacts-section .content {
-    padding-top: 4rem;
+    padding-top: 5rem;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -378,7 +378,7 @@ html {
 }
 
 .about-section .content {
-    padding-top: 4rem;
+    padding-top: 5rem;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
