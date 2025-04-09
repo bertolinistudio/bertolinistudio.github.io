@@ -5,8 +5,8 @@
          url('/font/Lady Bloom.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'kalesi';
-    src: url('/font/Kalesi-Regular.otf') format('otf');
+    font-family: 'Kalesi';
+    src: url('/font/Kalesi-Regular.otf') format('opentype');
 }
 
 
@@ -76,7 +76,7 @@ body {
     }
 }
 .landing-section .content h1 {
-    font-family: 'kalesi';
+    font-family: 'Kalesi';
     font-size: 4rem;
     font-weight: 100;
     text-transform: uppercase;
