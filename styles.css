@@ -80,6 +80,10 @@ body {
         font-size: 1rem;
     }
 }
+
+.landing-section.content h2 {
+    font-size: 3vw;
+}
 .landing-section .content h1 {
     font-family: 'title-light';
     font-size: 6vw;
