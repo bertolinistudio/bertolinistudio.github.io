@@ -1,9 +1,9 @@
+
 @font-face {
-    font-family: 'Lady Bloom';
-    src: url('/font/Lady Bloom.woff2') format('woff2'),
-         url('/font/Lady Bloom.woff') format('woff'),
-         url('/font/Lady Bloom.ttf') format('truetype');
+    font-family: 'lady-bloom';
+    src: url('/font/Lady\ Bloom.otf') format('opentype');
 }
+
 @font-face {
     font-family: 'title-bold';
     src: url('/font/NACHLIELICLM-BOLD.OTF') format('opentype');
@@ -16,28 +16,18 @@
 
 
 :root {
-    --bg-primary: #ffffff;
+    --bg-primary: #012929;
     --bg-primary-rgb: 255, 255, 255;
-    --bg-secondary: #f8f8f8;
+    --bg-secondary: #023535;
     --text-primary: #012929;
-    --text-secondary: #023535;
+    --text-secondary: #666666;
     --card-bg: #fff;
     --card-shadow: rgba(0,0,0,0.1);
     --placeholder-bg: #012323;
+    --nav-bg: #012929;
+    --nav-text: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-primary: #011818;
-        --bg-primary-rgb: 1, 24, 24;
-        --bg-secondary: #012929;
-        --text-primary: #ffffff;
-        --text-secondary: #8fb8ab;
-        --card-bg: #011010;
-        --card-shadow: rgba(0,0,0,0.3);
-        --placeholder-bg: #012323;
-    }
-}
 
 * {
     margin: 0;
@@ -49,7 +39,7 @@ body {
     font-family: 'Bodoni Moda', serif;
     line-height: 1.6;
     color: var(--text-primary);
-    background-color: var(--bg-primary);
+    background-color: white;
 }
 
 .brand-name {
@@ -65,26 +55,40 @@ body {
 }
 
 .landing-section {
-    background-color: var(--bg-primary);
+    background-color: var(--nav-bg);
     padding: 1rem;
-    margin-top: 4rem; /* Add space for sticky nav */
+    
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .landing-section .content {
     margin: auto;
-    font-family:'Lady Bloom' ;
+    font-family: 'lady-bloom', serif;
     text-align: center;
-}
-@media (max-width: 768px) {
-    .landing-section.content h1 {
-        font-size: 1rem;
-    }
+    opacity: 0;
+    animation: fadeInUp 10s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 }
 
-.landing-section.content h2 {
-    font-size: 3vw;
+
+.landing-section .content h2 {
+    color:var(--nav-text);
+    font-size: 4vw;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    
 }
 .landing-section .content h1 {
+    color: white;
     font-family: 'title-light';
     font-size: 6vw;
     font-weight: 100;
@@ -96,7 +100,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: var(--bg-primary);
+    background: var(--nav-bg);
     padding: 1rem 0;
 }
 
@@ -113,7 +117,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: var(--text-primary);
+    color: var(--nav-text);
     font-size: 1.4rem;
     transition: color 0.3s ease;
     letter-spacing: 0.03em;
@@ -127,7 +131,7 @@ nav a:hover {
 
 .projects-section .content {
     padding-top: 4rem;
-    background-color: var(--bg-primary);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,10 +157,7 @@ nav a:hover {
 }
 
 .project-item {
-
     background-color: var(--card-bg);
-    box-shadow: 0 2px 4px var(--card-shadow);
-    padding: 1rem;
 }
 
 .project-gallery {
@@ -273,8 +274,8 @@ nav a:hover {
 .project-item {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px var(--card-shadow);
+
+
     transition: transform 0.3s ease;
 }
 
@@ -321,7 +322,7 @@ html {
 
 .contacts-section {
     padding: 0 2rem;
-    background-color: var(--bg-primary);
+    background-color: white;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -370,7 +371,7 @@ html {
 
 .about-section {
     padding: 0 2rem;
-    background-color: var(--bg-primary);
+    background-color: white;
     min-height: 100vh;
     display: flex;
     align-items: center;
