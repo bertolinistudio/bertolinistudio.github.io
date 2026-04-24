@@ -2,16 +2,19 @@
 @font-face {
     font-family: 'lady-bloom';
     src: url('/font/Lady\ Bloom.otf') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'title-bold';
     src: url('/font/NACHLIELICLM-BOLD.OTF') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'title-light';
     src: url('/font/NACHLIELICLM-LIGHT.OTF') format('opentype');
+    font-display: swap;
 }
 
 
@@ -77,7 +80,7 @@ body {
     font-family: 'lady-bloom', serif;
     text-align: center;
     opacity: 0;
-    animation: fadeInUp 10s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation: fadeInUp 8s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     text-decoration: none;
     display: block;
     cursor: pointer;
